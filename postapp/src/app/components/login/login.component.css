@@ -1,0 +1,48 @@
+button {
+    background-color: #ed1b2e;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+input {
+    height: 30px;
+    width: 300px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: minmax(10px, 30%) minmax(400px, auto) minmax(10px, 30%);
+    grid-template-rows: minmax(10px, 30%) minmax(350px, auto) minmax(10px, 30%); 
+    height: calc(100vh);
+}
+.content {
+    align-items: center;
+    background-color: white;
+    border: solid 1px #d8dadc;
+    border-radius: 8px;
+    box-shadow: inset 0px 0px 0px 1px white;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    justify-content: space-evenly;
+    padding: 30px;
+    position: relative;
+    text-shadow: 0px 1px 0px white;
+}
+
+.error-message-container {
+    color: #ed1b2e;
+    font-size: 20px;
+    height: 20px;
+}
+
+.title {
+    font-size: 30px;
+}

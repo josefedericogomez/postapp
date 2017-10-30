@@ -1,0 +1,14 @@
+<div class="friend-container">
+  <div class="friend-title">
+    You have {{currentFriends.length}} {{"friend"|pluralize:currentFriends.length}}
+  </div>
+  <div class="friend-contnet" *ngFor="let friend of currentFriends; let i=index">
+    <button class="friend-button remove" title="Unfollow" (click)="unfollow(friend.id)">-</button>{{friend.name}}
+  </div>
+  <div class="friend-title">
+    Suggested friends
+  </div>
+  <div class="friend-contnet" *ngFor="let suggestedFriend of suggestedFriends; let i=index">
+      <button class="friend-button add" title="Follow" (click)="follow(suggestedFriend.id)">+</button>{{suggestedFriend.name}}
+  </div>
+</div>

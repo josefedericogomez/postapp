@@ -1,0 +1,253 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "comment": "Post inicial",
+      "date": "2017-09-09T21:31:41.229Z",
+      "userId": 1,
+      "friendIds": []
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Augusto Batalla",
+      "age": 21,
+      "email": "abatalla@carp.com",
+      "password": "123456",
+      "friendIds": []
+    },
+    {
+      "id": 2,
+      "name": "Jonatan Maidana",
+      "age": 32,
+      "email": "jmaidana@carp.com",
+      "password": "123456",
+      "friendIds": []
+    },
+    {
+      "id": 3,
+      "name": "Marcelo Saracchi",
+      "age": 19,
+      "email": "msaracchi@carp.com",
+      "password": "123456",
+      "friendIds": []
+    },
+    {
+      "id": 4,
+      "name": "Jorge Moreira",
+      "age": 27,
+      "email": "jmoreira@carp.com",
+      "password": "123456",
+      "friendIds": []
+    },
+    {
+      "id": 5,
+      "name": "Alexander Barboza",
+      "age": 22,
+      "email": "abarboza@carp.com",
+      "password": "123456",
+      "friendIds": []
+    },
+    {
+      "id": 6,
+      "name": "Luciano Lollo",
+      "age": 30,
+      "email": "llollo@carp.com",
+      "password": "123456",
+      "friendIds": []
+    },
+    {
+      "id": 7,
+      "name": "Rodrigo Mora",
+      "age": 30,
+      "email": "rmora@carp.com",
+      "password": "123456",
+      "friendIds": []
+    },
+    {
+      "id": 8,
+      "name": "Denis Rodriguez",
+      "age": 21,
+      "email": "drodriguez@carp.com",
+      "password": "123456",
+      "friendIds": []
+    },
+    {
+      "id": 9,
+      "name": "Marcelo Larrondo",
+      "age": 29,
+      "email": "mlarrondo@carp.com",
+      "password": "123456",
+      "friendIds": []
+    },
+    {
+      "id": 10,
+      "name": "Gonzalo Martinez",
+      "age": 24,
+      "email": "gmartinez@carp.com",
+      "password": "123456",
+      "friendIds": []
+    },
+    {
+      "id": 11,
+      "name": "Nicolas De La Cruz",
+      "age": 20,
+      "email": "ndelacruz@carp.com",
+      "password": "123456",
+      "friendIds": []
+    },
+    {
+      "id": 14,
+      "name": "German Lux",
+      "age": 35,
+      "email": "glux@carp.com",
+      "password": "123456",
+      "friendIds": []
+    },
+    {
+      "id": 15,
+      "name": "Exequiel Palacios",
+      "age": 19,
+      "email": "epalacios@carp.com",
+      "password": "123456",
+      "friendIds": []
+    },
+    {
+      "id": 16,
+      "name": "Ariel Rojas",
+      "age": 31,
+      "email": "arojas@carp.com",
+      "password": "123456",
+      "friendIds": []
+    },
+    {
+      "id": 17,
+      "name": "Carlos Auzqui",
+      "age": 26,
+      "email": "cauzqui@carp.com",
+      "password": "123456",
+      "friendIds": []
+    },
+    {
+      "id": 18,
+      "name": "Camilo Mayada",
+      "age": 26,
+      "email": "cmayada@carp.com",
+      "password": "123456",
+      "friendIds": []
+    },
+    {
+      "id": 19,
+      "name": "Rafael Santos Borre",
+      "age": 22,
+      "email": "rsantosborre@carp.com",
+      "password": "123456",
+      "friendIds": []
+    },
+    {
+      "id": 20,
+      "name": "Milton Casco",
+      "age": 29,
+      "email": "mcasco@carp.com",
+      "password": "123456",
+      "friendIds": []
+    },
+    {
+      "id": 21,
+      "name": "Ivan Rossi",
+      "age": 24,
+      "email": "irossi@carp.com",
+      "password": "123456",
+      "friendIds": []
+    },
+    {
+      "id": 22,
+      "name": "Javier Pinola",
+      "age": 34,
+      "email": "jpinola@carp.com",
+      "password": "123456",
+      "friendIds": []
+    },
+    {
+      "id": 23,
+      "name": "Leonardo Ponzio",
+      "age": 35,
+      "email": "lponzio@carp.com",
+      "password": "123456",
+      "friendIds": []
+    },
+    {
+      "id": 24,
+      "name": "Enzo Perez",
+      "age": 31,
+      "email": "eperez@carp.com",
+      "password": "123456",
+      "friendIds": []
+    },
+    {
+      "id": 25,
+      "name": "Enrique Bologna",
+      "age": 35,
+      "email": "ebologna@carp.com",
+      "password": "123456",
+      "friendIds": []
+    },
+    {
+      "id": 26,
+      "name": "Ignacio Fernandez",
+      "age": 27,
+      "email": "ifernandez@carp.com",
+      "password": "123456",
+      "friendIds": []
+    },
+    {
+      "id": 28,
+      "name": "Lucas Martinez Quarta",
+      "age": 21,
+      "email": "lmmartinezquarta@carp.com",
+      "password": "123456",
+      "friendIds": []
+    },
+    {
+      "id": 29,
+      "name": "Gonzalo Montiel",
+      "age": 20,
+      "email": "gmontiel@carp.com",
+      "password": "123456",
+      "friendIds": []
+    },
+    {
+      "id": 32,
+      "name": "Ignacio Scocco",
+      "age": 32,
+      "email": "iscocco@carp.com",
+      "password": "123456",
+      "friendIds": []
+    },
+    {
+      "id": 34,
+      "name": "Zacarias Moran Correa",
+      "age": 21,
+      "email": "zmorancorrea@carp.com",
+      "password": "123456",
+      "friendIds": []
+    },
+    {
+      "id": 35,
+      "name": "Tomas Andrade",
+      "age": 21,
+      "email": "tandrade@carp.com",
+      "password": "123456",
+      "friendIds": []
+    },
+    {
+      "id": 41,
+      "name": "Marcelo Gallardo",
+      "age": 41,
+      "email": "mgallardo@carp.com",
+      "password": "123456",
+      "friendIds": []
+    }
+  ]
+}

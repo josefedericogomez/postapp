@@ -1,0 +1,21 @@
+<div class="new-post-container">
+  <textarea #newPostInput class="new-post-input" rows="4" cols="50"></textarea>
+  <button class="add-new-post" title="Add post" (click)="addNewPost(newPostInput.value);newPostInput.value=''">+</button>
+</div>
+<div class="posts-container">
+  <div class="post-container" *ngFor="let userPost of userPosts">
+    <div class="post-outer">
+      <div class="post-inner">
+        <div class="title-container">
+          <span class="title-name">{{userPost.user.name}}</span>
+          <span class="title-date">{{userPost.post.date|date:'dd/MMM/yyyy HH:mm'}}</span>
+        </div>
+        <div [pstEllipsis]="userPost.post.comment" class="post-text"></div>
+      </div>
+      <div class="like-container">
+        <button class="like-button" (click)="like(userPost)" [ngClass]="userPost.hasMyLike ? 'liked' : 'likeable'" [title]="getTitle(userPost)">♥</button>
+        <span class="like-count">{{userPost.post.friendIds.length}}</span>
+      </div>
+    </div>
+  </div>
+</div>

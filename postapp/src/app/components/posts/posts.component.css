@@ -1,0 +1,125 @@
+.add-new-post {
+    background-color: #47BC4F;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+    margin: 5px;
+    height: 50px;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    width: 50px;
+}
+
+.likeable { 
+    background-color: lightgray;
+    color: white;
+    opacity: 0.5;
+}
+
+.liked { 
+    background-color: #ed1b2e;
+    color: white;
+}
+
+.like-button {
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 30px;
+    margin: 5px;
+    height: 40px;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    width: 40px;
+}
+
+.like-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.like-count {
+    color: grey;
+    font-size: 15px;
+    text-align: center;
+}
+
+.new-post-container { 
+    align-content: start;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: minmax(10px, 30%) minmax(350px, auto) 50px minmax(10px, 30%);
+    height: 100px;
+    padding: 15px;
+    position: relative;
+    width: 100%;
+}
+
+.new-post-input {
+    grid-column: 2 / 3;
+}
+
+.posts-container {
+    align-content: start;
+    box-sizing: border-box;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: minmax(10px, 30%) minmax(350px, auto) minmax(10px, 30%);
+    max-height: calc(100vh - 150px);
+    padding: 15px;
+    overflow: auto;
+    position: relative;
+    width: 100%;
+}
+
+.post-container{
+    align-items: center;
+    background-color: white;
+    border: solid 1px #d8dadc;
+    border-radius: 8px;
+    box-shadow: inset 0px 0px 0px 1px white;
+    box-sizing: border-box;
+    display: flex;
+    font-size: 18px;
+    grid-column: 2 / 3;
+    min-height: 50px;
+    padding: 10px;
+    position: relative;
+    text-shadow: 0px 1px 0px white;
+}
+
+.post-inner {
+    width: 100%;
+}
+
+.post-outer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.post-text {
+    margin: 15px;
+}
+
+.title-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-date{
+    color: grey;
+    font-size: 14px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.title-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+

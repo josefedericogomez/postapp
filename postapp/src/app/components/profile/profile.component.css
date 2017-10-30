@@ -1,0 +1,29 @@
+.label {
+    display: inline-block;
+    width: 80px;
+}
+.value {
+    color: grey;
+}
+.profile-container {
+    background-color: #F5F5F5;
+    display: grid;
+    grid-template-columns: 38% auto 38%;
+    grid-template-rows: 20% auto 50%;
+    height: calc(100vh);
+}
+.profile-content {
+    background-color: white;
+    border: solid 1px #d8dadc;
+    border-radius: 8px;
+    box-shadow: inset 0px 0px 0px 1px white;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    justify-content: space-evenly;
+    padding-left: 30px;
+    position: relative;
+    text-shadow: 0px 1px 0px white;
+}
